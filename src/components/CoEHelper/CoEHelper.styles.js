@@ -1,8 +1,8 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-const Wrapper= styled.section`
+const Wrapper = styled.section`
   padding: 4em;
-  background: #EBDDD6;
+  background: #ebddd6;
 `;
 
 export default Wrapper;

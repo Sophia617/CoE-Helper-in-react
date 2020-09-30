@@ -12,7 +12,7 @@ const CoECalculationForm = (props) => {
     subjectCPSForFees: 0,
   });
 
-  // when the form is submitted
+  // when the form is submitted, send userInput details to CoE Helper.js
   const submitHandler = (e) => {
     e.preventDefault();
     const inputData = { ...userValues };

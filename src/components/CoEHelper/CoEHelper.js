@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Badge, Container } from "react-bootstrap";
 import Wrapper from "./CoEHelper.styles";
-import CoECalculationForm from "./CoECalculationForm";
-import CalculationResult from "./CalculationResult";
+import CoECalculationForm from "./CoEHelperInputForm";
+import CalculationResult from "./ResultDisplay";
 
 const CoEHelper = () => {
   const [userInputs, setInputsValues] = useState({});
@@ -124,14 +124,14 @@ const CoEHelper = () => {
         <br />
         <CoECalculationForm storeInputValues={storeInputValues} />
         <br />
-        {showResult ? (
+        {showResult && (
           <CalculationResult
             remainingCreditPints={remainingCreditPints}
             courseEndDate={courseEndDate}
             totalTuitionFees={totalTuitionFees}
             currentTuitionFees={currentTuitionFees}
           />
-        ) : null}
+        )}
       </Container>
     </Wrapper>
   );
