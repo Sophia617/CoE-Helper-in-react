@@ -1,0 +1,92 @@
+[
+  {
+    "eventKey": "spring21",
+    "title": "2021 SPRING",
+    "calendars": [
+      {
+        "name": "2021 Spring - CAL A & C",
+        "startDate": "02/08/2021",
+        "resultReleaseDate": "31/12/2021 (Not confirmed)",
+        "censusDate": "27/08/2021"
+      },
+      {
+        "name": "2021 Spring - Graduate School of Health (CAL B)",
+        "startDate": "26/07/2021",
+        "resultReleaseDate": "31/12/2021 (Not confirmed)",
+        "censusDate": "20/08/2021"
+      },
+      {
+        "name": "2021 Spring - Education UG &PG (CAL D)",
+        "startDate": "19/07/2021**",
+        "resultReleaseDate": "31/12/2021 (Not confirmed)",
+        "censusDate": "20/08/2021 "
+      }
+    ]
+  },
+  {
+    "eventKey": "autumn21",
+    "title": "2021 AUTUMN",
+    "calendars": [
+      {
+        "name": "2021 Autumn - CAL A/B/C",
+        "startDate": "22/02/2021",
+        "resultReleaseDate": "30/06/2021 (Not confirmed)",
+        "censusDate": "19/03/2021"
+      },
+      {
+        "name": "2021 Autumn - Education UG &PG (CAL D)",
+        "startDate": "15/02/2021**",
+        "resultReleaseDate": "31/12/2021 (Not confirmed)",
+        "censusDate": "19/03/2021"
+      }
+    ]
+  },
+  {
+    "eventKey": "summer2021",
+    "title": "2020 SUMMER",
+    "calendars": [
+      {
+        "name":"2020/21 Summer",
+        "startDate": "16/11/2020",
+        "resultReleaseDate": "27/02/2021 (Not Confirmed))",
+        "censusDate": "08/12/2020"
+      }
+    ]
+  },
+  {
+    "eventKey": "spring20",
+    "title": "2020 SPRING",
+    "calendars": [
+      {
+        "name": "2020 Spring -CAL A",
+        "startDate": "27/07/2020",
+        "resultReleaseDate": "30/11/2020",
+        "censusDate": "25/08/2020"
+      },
+      {
+        "name": "2020 Spring -CAL B",
+        "startDate": "27/07/2020",
+        "resultReleaseDate": "14/12/2020",
+        "censusDate": "25/08/2020"
+      }
+    ]
+  },
+  {
+    "eventKey": "autumn20",
+    "title": "2020 AUTUMN",
+    "calendars": [
+      {
+        "name": "2020 AUTUMN -CAL A",
+        "startDate": "09/03/2020",
+        "resultReleaseDate": "13/07/2020",
+        "censusDate": "14/04/2020"
+      },
+      {
+        "name": "2020 AUTUMN -CAL B",
+        "startDate": "24/02/2020",
+        "resultReleaseDate": "13/07/2020",
+        "censusDate": "14/04/2020"
+      }
+    ]
+  }
+]
