@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, Button } from "react-bootstrap";
+import { Form, Button, OverlayTrigger, Popover } from "react-bootstrap";
 import FormGroup from "../ReusableComponents/FormGroup";
 
 const CoECalculationForm = (props) => {
@@ -21,17 +21,40 @@ const CoECalculationForm = (props) => {
 
   // Update object value from user input
   function inputChangeHander(e) {
-        let value = e.target.value === "" ? 0 : e.target.value;
-        if (e.target.name === "subjectTuitionFees") {
-            value = parseFloat(value);
-        } else {
-            value = parseInt(value);
-        }
-        setInputValues({
-            ...userValues,
-            [e.target.name]: value
-        });
+    let value = e.target.value === "" ? 0 : e.target.value;
+    if (e.target.name === "subjectTuitionFees") {
+      value = parseFloat(value);
+    } else {
+      value = parseInt(value);
     }
+    setInputValues({
+      ...userValues,
+      [e.target.name]: value,
+    });
+  }
+
+  //
+  const pendingCPSPopover = (
+    <Popover id="popover-basic">
+      <Popover.Title as="h3">What is Pending CPS?</Popover.Title>
+      <Popover.Content>
+        Credit points of pending result from the previous session. Calculate
+        course end date <strong>assuming the subject will be passed.</strong>
+      </Popover.Content>
+    </Popover>
+  );
+
+  const enrooledCPSpopover = (
+    <Popover id="popover-basic">
+      <Popover.Title as="h3">What is enrolled CPS?</Popover.Title>
+      <Popover.Content>
+        Enrolled credit points for the upcoming session. <br />
+        <strong>If approved RSL,</strong> enter approved credit points (e.g. 18){" "}
+        <br />
+        <strong> If over-enrolled,</strong> enter full cps enrolled (e.g. 30)
+      </Popover.Content>
+    </Popover>
+  );
 
   return (
     <>
@@ -67,6 +90,17 @@ const CoECalculationForm = (props) => {
             type="number"
             placeholder={"e.g. 6"}
             inputTextHandler={inputChangeHander}
+            icon={
+              <OverlayTrigger
+                trigger="click"
+                placement="top"
+                overlay={pendingCPSPopover}
+              >
+                <span>
+                  <i className="fas fa-question-circle"></i>
+                </span>
+              </OverlayTrigger>
+            }
           />
 
           <FormGroup
@@ -78,6 +112,17 @@ const CoECalculationForm = (props) => {
             type="number"
             placeholder={"e.g. 24"}
             inputTextHandler={inputChangeHander}
+            icon={
+              <OverlayTrigger
+                trigger="click"
+                placement="top"
+                overlay={enrooledCPSpopover}
+              >
+                <span>
+                  <i className="fas fa-question-circle"></i>
+                </span>
+              </OverlayTrigger>
+            }
           />
         </Form.Row>
 

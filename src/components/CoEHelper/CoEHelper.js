@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Badge, Container } from "react-bootstrap";
 import Wrapper from "./CoEHelper.styles";
 import CoECalculationForm from "./CoEHelperInputForm";
-import CalculationResult from "./ResultDisplay";
+import ResultDisplay from "./ResultDisplay";
 
 const CoEHelper = () => {
   const [userInputs, setInputsValues] = useState({});
@@ -36,7 +36,6 @@ const CoEHelper = () => {
   // if enrolledCps is 0  - 24 just as normal.
   // if enrolled cps is less than 24 cps  (add gap)
   // if enrolled cps is more than 24 cps (deduct gap)
-
   const calculateCourseEndDate = (remainingCPS) => {
     let totalRemainingCPS = remainingCPS;
     let enrolledCPS = userInputs.enrolledCPS;
@@ -113,11 +112,10 @@ const CoEHelper = () => {
     <Wrapper id="home">
       <Container>
         <Badge pill variant="info">
-          {" "}
           Autumn 2021
         </Badge>
         <h1>
-          <i className="fas fa-dog"></i> CoE Helper{" "}
+          <i className="fas fa-dog"></i> CoE Helper
         </h1>
         <br />
         <p>Calculate estimated course end date & total tuition fees left.</p>
@@ -125,11 +123,14 @@ const CoEHelper = () => {
         <CoECalculationForm storeInputValues={storeInputValues} />
         <br />
         {showResult && (
-          <CalculationResult
+          <ResultDisplay
             remainingCreditPints={remainingCreditPints}
             courseEndDate={courseEndDate}
             totalTuitionFees={totalTuitionFees}
             currentTuitionFees={currentTuitionFees}
+            hideDisplayCard={() => {
+              setShowResult(false);
+            }}
           />
         )}
       </Container>
