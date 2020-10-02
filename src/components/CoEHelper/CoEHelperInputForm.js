@@ -33,7 +33,7 @@ const CoECalculationForm = (props) => {
     });
   }
 
-  //
+  // tooltip
   const pendingCPSPopover = (
     <Popover id="popover-basic">
       <Popover.Title as="h3">What is Pending CPS?</Popover.Title>
@@ -44,12 +44,12 @@ const CoECalculationForm = (props) => {
     </Popover>
   );
 
-  const enrooledCPSpopover = (
+  const enrolledCPSpopover = (
     <Popover id="popover-basic">
       <Popover.Title as="h3">What is enrolled CPS?</Popover.Title>
       <Popover.Content>
         Enrolled credit points for the upcoming session. <br />
-        <strong>If approved RSL,</strong> enter approved credit points (e.g. 18){" "}
+        <strong>If RSL approved,</strong> enter approved credit points (e.g. 18){" "}
         <br />
         <strong> If over-enrolled,</strong> enter full cps enrolled (e.g. 30)
       </Popover.Content>
@@ -116,7 +116,7 @@ const CoECalculationForm = (props) => {
               <OverlayTrigger
                 trigger="click"
                 placement="top"
-                overlay={enrooledCPSpopover}
+                overlay={enrolledCPSpopover}
               >
                 <span>
                   <i className="fas fa-question-circle"></i>
