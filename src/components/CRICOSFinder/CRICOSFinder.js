@@ -7,13 +7,13 @@ import CourseList from "./CourseList";
 import PaginationComp from "../ReusableComponents/PaginationComp";
 
 const CRICOSFinder = () => {
-  // Lists of course details from json file
+  // Lists of courses from json file
   const [courses, setCourses] = useState([]);
-  // state to save user's input query
+  // To save user's input query
   const [query, setQuery] = useState("");
-  // state to save  list of courses after filter (matching with user query)
+  // List of courses matching with user query
   const [searchResult, setSearchResult] = useState([]);
-  // state to set searching - shows CourseList section only when searching is true
+  // shows CourseList component only when searching is true
   const [searching, setSearching] = useState(false);
   // Pagination
   const [currentPage, setCurrentPage] = useState(1);
@@ -27,6 +27,10 @@ const CRICOSFinder = () => {
     searchResultHandler();
   }, [query]);
 
+  /***************************
+   *  Handling UserInput
+   * ************************/
+
   const userInputHandler = (userInput) => {
     setQuery(userInput);
     userInput === "" ? setSearching(false) : setSearching(true);
@@ -39,21 +43,23 @@ const CRICOSFinder = () => {
         return course;
       }
       if (course.code.toLowerCase().indexOf(filterQuery) > -1) {
-        //console.log("return", course);
         return course;
       }
     });
     setSearchResult([...searchResultList]);
   };
 
-  //get Current course result.. PaginationComp
+  /***************************
+   *  Handling Pagination
+   * ************************/
+
   const indexOfLastItem = currentPage * coursesPerPage;
   const indexOfFirstItem = indexOfLastItem - coursesPerPage;
   const currentSearchedCourses = searchResult.slice(
     indexOfFirstItem,
     indexOfLastItem
   );
-  // change page (Pagination)
+
   const paginate = (pageNumber) => {
     setCurrentPage(pageNumber);
   };
@@ -62,7 +68,7 @@ const CRICOSFinder = () => {
     <Wrapper id="cricosFinder">
       <Container>
         <h1>
-          <i className="fas fa-search"></i> CRICOS Finder{" "}
+          <i className="fas fa-search"></i> CRICOS Finder
         </h1>
         <br />
         <Search userInputHandler={userInputHandler} query={query} />

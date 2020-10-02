@@ -15,8 +15,8 @@ const Search = (props) => {
             value={props.query}
             type="text"
             onChange={onChangeHandler}
-            onkeyPress={(e) => {
-              e.keyCode === 13 && e.preventDefault();
+            onKeyPress={(e) => {
+              e.key === "Enter" && e.preventDefault();
             }}
             placeholder="Search course name or course code to find CRICOS..."
           />
