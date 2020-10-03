@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Wrapper from "./FeesCalculator.styles";
 import InputFieldsList from "./InputFieldsList";
-import CalculationResult from "./CalculationResult";
+import ResultSumDisplay from "./ResultSumDisplay";
 
 const FeesCalculator = () => {
-  // collection of fees calculation per row
   const [sum, setSum] = useState(0);
+  const [showResultDisplay, setShowResultDisplay] = useState(false);
   const sumChangeHandler = (totalSum) => {
     setSum(totalSum);
+    totalSum > 0 ? setShowResultDisplay(true) : setShowResultDisplay(false);
   };
 
   // function required - whenever the value of feesCal changes, calculate the total fees
@@ -21,7 +22,7 @@ const FeesCalculator = () => {
         <br />
         <InputFieldsList sumChanged={sumChangeHandler} />
         <br />
-        <CalculationResult sum={sum} />
+        {showResultDisplay && <ResultSumDisplay sum={sum} />}
         <br />
       </Container>
     </Wrapper>
