@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da8026-68de-43e7-b612-ea6f8249268b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ImportantDate/SessionDatesTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImportantDate/SessionDatesTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CoEHelper/ResultDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CoEHelper/ResultDisplay.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,20 +20,47 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="943">
+            <state relative-caret-position="312">
               <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SessionDatesTable.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SessionDatesTable.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ImportantDate/SessionDatesTable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="16" column="89" selection-start-line="16" selection-start-column="89" selection-end-line="16" selection-end-column="89" />
+            <state relative-caret-position="203">
+              <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultDisplay.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/CoEHelper/ResultDisplay.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="28" column="120" selection-start-line="28" selection-start-column="120" selection-end-line="28" selection-end-column="120" />
             </state>
           </provider>
         </entry>
@@ -55,7 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/SearchCourse.js" />
         <option value="$PROJECT_DIR$/src/components/COEHelperForm.css" />
         <option value="$PROJECT_DIR$/src/components/COECalulationResult.js" />
         <option value="$PROJECT_DIR$/src/components/COEHelperForm.js" />
@@ -93,10 +118,8 @@
         <option value="$PROJECT_DIR$/src/data/coursesWithCRICOS.json" />
         <option value="$PROJECT_DIR$/src/components/CoEHelper/CoECalculationForm.js" />
         <option value="$PROJECT_DIR$/src/data/importantDatesByYearAndSession.json" />
-        <option value="$PROJECT_DIR$/src/components/CoEHelper/ResultDisplay.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/components/CoEHelper/CoEHelper.js" />
-        <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/CRICOSFinder/CRICOSFinder.styles.js" />
         <option value="$PROJECT_DIR$/src/components/CoEHelper/CoEHelper.styles.js" />
         <option value="$PROJECT_DIR$/src/components/ImportantDate/ImportantDates.styles.js" />
@@ -106,6 +129,9 @@
         <option value="$PROJECT_DIR$/src/components/FeesCalculator/InputGroupsDisplay.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/ImportantDate/SessionDatesTable.js" />
+        <option value="$PROJECT_DIR$/src/components/CoEHelper/ResultDisplay.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
@@ -146,6 +172,11 @@
             <path>
               <item name="CoE_Helper" type="b2602c69:ProjectViewProjectNode" />
               <item name="CoE_Helper" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoE_Helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoE_Helper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -153,6 +184,13 @@
               <item name="CoE_Helper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CoE_Helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CoE_Helper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="CoEHelper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CoE_Helper" type="b2602c69:ProjectViewProjectNode" />
@@ -218,25 +256,25 @@
       <workItem from="1601901843136" duration="13000" />
       <workItem from="1601902252652" duration="996000" />
       <workItem from="1601903346764" duration="1036000" />
-      <workItem from="1601905051242" duration="71000" />
+      <workItem from="1601905051242" duration="1062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157859000" />
+    <option name="totallyTimeSpent" value="158850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="538" y="32" width="1099" height="937" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22376972" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22376972" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50046426" side_tool="true" weight="0.31674758" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3288835" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49953574" visible="true" weight="0.31674758" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49953574" visible="true" weight="0.31674758" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -289,7 +327,6 @@
     <entry file="file://$PROJECT_DIR$/src/components/ImportantDate/ImportantDates.js" />
     <entry file="file://$PROJECT_DIR$/src/components/CRICOSFinder/CRICOSFinder.js" />
     <entry file="file://$PROJECT_DIR$/src/components/FeesCalc/FeesCalculator.js" />
-    <entry file="file://$PROJECT_DIR$/public/index.html" />
     <entry file="file://$PROJECT_DIR$/src/index.js" />
     <entry file="file://$PROJECT_DIR$/src/components/Navigation.js" />
     <entry file="file://$PROJECT_DIR$/src/components/ReusableComponents/AlertMessage.js" />
@@ -314,31 +351,56 @@
     <entry file="file://$PROJECT_DIR$/src/components/CoEHelper/CalculationResult.js" />
     <entry file="file://$PROJECT_DIR$/src/components/FeesCalculator/FeesCalculator.js" />
     <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/src/components/CoEHelper/ResultDisplay.js" />
-    <entry file="file://$PROJECT_DIR$/src/App.css" />
     <entry file="file://$PROJECT_DIR$/src/components/CRICOSFinder/CRICOSFinder.styles.js" />
     <entry file="file://$PROJECT_DIR$/src/components/ImportantDate/ImportantDates.styles.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/CoEHelper/CoEHelper.styles.js" />
     <entry file="file://$PROJECT_DIR$/src/App.js" />
     <entry file="file://$PROJECT_DIR$/src/components/CoEHelper/CoEHelperInputForm.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/CoEHelper/CoEHelper.js" />
     <entry file="file://$PROJECT_DIR$/src/components/FeesCalculator/FeesCalculator.styles.js" />
     <entry file="file://$PROJECT_DIR$/src/components/FeesCalculator/InputFieldsList.js" />
     <entry file="file://$PROJECT_DIR$/src/components/FeesCalculator/InputGroupsDisplay.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/components/CoEHelper/CoEHelper.styles.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CoEHelper/CoEHelper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
-        </state>
+        <state relative-caret-position="-2351" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ImportantDate/SessionDatesTable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="16" column="89" selection-start-line="16" selection-start-column="89" selection-end-line="16" selection-end-column="89" />
+        <state relative-caret-position="203">
+          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CoEHelper/ResultDisplay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="28" column="120" selection-start-line="28" selection-start-column="120" selection-end-line="28" selection-end-column="120" />
         </state>
       </provider>
     </entry>
