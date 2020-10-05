@@ -5,7 +5,7 @@ import InputFieldsList from "./InputFieldsList";
 import ResultSumDisplay from "./ResultSumDisplay";
 
 const FeesCalculator = () => {
-  const [sum, setSum] = useState(0);
+  const [sum, setSum] = useState(0.0);
   const [showResultDisplay, setShowResultDisplay] = useState(false);
   const sumChangeHandler = (totalSum) => {
     setSum(totalSum);
@@ -17,7 +17,7 @@ const FeesCalculator = () => {
     <Wrapper id="feesCalculator">
       <Container>
         <h1>
-          <i className="fas fa-calculator"></i> Fees Calculator{" "}
+          <i className="fas fa-calculator"></i> Fees Calculator
         </h1>
         <br />
         <InputFieldsList sumChanged={sumChangeHandler} />

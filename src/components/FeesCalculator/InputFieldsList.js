@@ -3,10 +3,10 @@ import { Form } from "react-bootstrap";
 import InputGroupsDisplay from "./InputGroupsDisplay";
 
 const InputFieldsList = ({ sumChanged }) => {
-  const [inputGroupValuesArray, setInputGroupValuesArray] = useState([]);
   const [inputGroupIDArray, setInputGroupIDArray] = useState([
     { id: Math.random() * 1000 },
   ]);
+  const [inputGroupValuesArray, setInputGroupValuesArray] = useState([]);
   const [inputGroupTotalFeesArray, setInputGroupTotalFeesArray] = useState([]);
   const [showDeleteBtn, setShowDeleteBtn] = useState(false);
 
@@ -21,11 +21,11 @@ const InputFieldsList = ({ sumChanged }) => {
     let copiedInputGroupValuesArray = inputGroupValuesArray;
     let inputValuesInRow = {
       id: id,
-      fees: 0,
-      numbers: 0,
+      subjectFees: 0,
+      subjectNumbers: 0,
     };
     let name = e.target.name;
-    let inputValue = e.target.value;
+    let inputValue = parseFloat(e.target.value);
 
     let index = copiedInputGroupValuesArray
       .map((userInputs) => userInputs.id)
@@ -54,12 +54,13 @@ const InputFieldsList = ({ sumChanged }) => {
   /**********************************************
    *  Cacluate fees for urser Inputs Groups (row)
    * **********************************************/
+
   const calculateInputGroupFees = (id, inputValuesInRow) => {
     let totalFeesInRow = {
       id: id,
-      feesInTotal: (inputValuesInRow.fees * inputValuesInRow.numbers).toFixed(
-        2
-      ),
+      feesInTotal: parseFloat(
+        inputValuesInRow.subjectFees * inputValuesInRow.subjectNumbers
+      ).toFixed(2),
     };
     let copiedInputGroupTotalFeesArray = [...inputGroupTotalFeesArray];
     let index = copiedInputGroupTotalFeesArray
@@ -71,7 +72,7 @@ const InputFieldsList = ({ sumChanged }) => {
         totalFeesInRow,
       ];
     } else {
-      copiedInputGroupTotalFeesArray[index].subjectFees =
+      copiedInputGroupTotalFeesArray[index].feesInTotal =
         totalFeesInRow.feesInTotal;
     }
     setInputGroupTotalFeesArray([...copiedInputGroupTotalFeesArray]);
@@ -80,7 +81,7 @@ const InputFieldsList = ({ sumChanged }) => {
   // calculate sum of total fees in row
   const calculateTotalSum = () => {
     const copiedTotalSumArray = [...inputGroupTotalFeesArray].map((item) =>
-      parseFloat(item.subjectFees)
+      parseFloat(item.feesInTotal)
     );
     if (copiedTotalSumArray.length > 0) {
       const reducer = (accumulator, currentValue) => accumulator + currentValue;
@@ -149,8 +150,11 @@ const InputFieldsList = ({ sumChanged }) => {
             key={inputGroup.id}
             addClickHandler={addInputGroup}
             deleteClickHandler={deleteInputGroup}
-            showDeleteBtn={showDeleteBtn}
             inputTextHandler={(e) => inputTextHandler(e, inputGroup.id)}
+            showDeleteBtn={showDeleteBtn}
+            inputGroupTotalFeesObj={inputGroupTotalFeesArray.find(
+              (item) => item.id === inputGroup.id
+            )}
           />
         );
       })}

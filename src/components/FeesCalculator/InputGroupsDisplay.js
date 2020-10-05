@@ -8,8 +8,17 @@ const InputGroupsDisplay = ({
   addClickHandler,
   deleteClickHandler,
   id,
-  deleteBtn,
+  showDeleteBtn,
+  inputGroupTotalFeesObj,
 }) => {
+  // to set total fees in total in ROW
+  let feesInTotalObj = {
+    id,
+    feesInTotal: 0,
+  };
+  feesInTotalObj = { ...inputGroupTotalFeesObj };
+  console.log(feesInTotalObj);
+
   return (
     <Form.Row>
       <FormGroup
@@ -43,12 +52,12 @@ const InputGroupsDisplay = ({
         xs={9}
         sm={3}
         md={4}
-        controlId={"totalSum"}
+        controlId={"inputGroupTotalFees"}
         label={"Total: "}
-        name={"totalSum"}
+        name={"inputGroupTotalFees"}
         type={"number"}
         disabled={true}
-        inputTextHandler={inputTextHandler}
+        placeholder={feesInTotalObj.feesInTotal}
       />
 
       <CENTERDIV className="col-xs-1" onClick={addClickHandler}>
@@ -57,7 +66,7 @@ const InputGroupsDisplay = ({
           className="fas fa-plus-square"
         ></ICON>
       </CENTERDIV>
-      {deleteBtn && (
+      {showDeleteBtn && (
         <CENTERDIV className="col-xs-1" onClick={() => deleteClickHandler(id)}>
           <ICON
             style={{ fontSize: "2.2rem" }}
