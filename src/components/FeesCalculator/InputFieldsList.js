@@ -48,13 +48,13 @@ const InputFieldsList = ({ sumChanged }) => {
       copiedInputGroupValuesArray[index] = inputValuesInRow;
     }
     setInputGroupValuesArray([...copiedInputGroupValuesArray]);
-    calculateInputGrupFees(id, inputValuesInRow);
+    calculateInputGroupFees(id, inputValuesInRow);
   };
 
   /**********************************************
    *  Cacluate fees for urser Inputs Groups (row)
    * **********************************************/
-  const calculateInputGrupFees = (id, inputValuesInRow) => {
+  const calculateInputGroupFees = (id, inputValuesInRow) => {
     let totalFeesInRow = {
       id: id,
       feesInTotal: (inputValuesInRow.fees * inputValuesInRow.numbers).toFixed(
@@ -77,7 +77,7 @@ const InputFieldsList = ({ sumChanged }) => {
     setInputGroupTotalFeesArray([...copiedInputGroupTotalFeesArray]);
   };
 
-  // calculate total Sum
+  // calculate sum of total fees in row
   const calculateTotalSum = () => {
     const copiedTotalSumArray = [...inputGroupTotalFeesArray].map((item) =>
       parseFloat(item.subjectFees)
@@ -105,29 +105,30 @@ const InputFieldsList = ({ sumChanged }) => {
   // Delete InputGroup row --> When click 'trash bin' button
   const deleteInputGroup = (id) => {
     const copiedInputGroupIDArray = [...inputGroupIDArray];
-    const copiedUserInputValues = [...inputGroupValuesArray];
-    const copiedTotalSumArray = [...inputGroupTotalFeesArray];
+    const copiedInputGroupValuesArray = [...inputGroupValuesArray];
+    const copiedInputGroupTotalFeesArray = [...inputGroupTotalFeesArray];
 
     let inputGroupIdIndex = copiedInputGroupIDArray
       .map((inputGroup) => inputGroup.id)
       .indexOf(id);
-    let inputValuesIndex = copiedUserInputValues
+    let inputValuesIndex = copiedInputGroupValuesArray
       .map((userInputValues) => userInputValues.id)
       .indexOf(id);
-    let totalSumIndex = copiedTotalSumArray
-      .map((totalSumItem) => totalSumItem.id)
+    let totalFeesIndex = copiedInputGroupTotalFeesArray
+      .map((totalFees) => totalFees.id)
       .indexOf(id);
 
-    if (inputGroupIdIndex > -1 && copiedInputGroupIDArray.length > 1) {
+    if (inputGroupIdIndex > -1) {
       copiedInputGroupIDArray.splice(inputGroupIdIndex, 1);
+      console.log("hello");
     }
 
-    if (inputValuesIndex > -1 && copiedUserInputValues.length > 1) {
-      copiedUserInputValues.splice(inputValuesIndex, 1);
+    if (inputValuesIndex > -1) {
+      copiedInputGroupValuesArray.splice(inputValuesIndex, 1);
     }
 
-    if (totalSumIndex > -1 && copiedTotalSumArray.length > 1) {
-      copiedTotalSumArray.splice(totalSumIndex, 1);
+    if (totalFeesIndex > -1) {
+      copiedInputGroupTotalFeesArray.splice(totalFeesIndex, 1);
     }
 
     if (copiedInputGroupIDArray.length === 1) {
@@ -135,8 +136,8 @@ const InputFieldsList = ({ sumChanged }) => {
     }
 
     setInputGroupIDArray([...copiedInputGroupIDArray]);
-    setInputGroupValuesArray([...copiedUserInputValues]);
-    setInputGroupTotalFeesArray([...copiedTotalSumArray]);
+    setInputGroupValuesArray([...copiedInputGroupValuesArray]);
+    setInputGroupTotalFeesArray([...copiedInputGroupTotalFeesArray]);
   };
 
   return (
