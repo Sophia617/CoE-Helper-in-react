@@ -14,7 +14,7 @@ const SessionDatesTable = () => {
         {importantDatesBySession.map((session, index) => {
           return (
             <Tab eventKey={session.eventKey} title={session.title} key={index}>
-              <Table striped bordered hover variant="dark">
+              <Table striped bordered hover variant="dark" className="table-responsive-sm">
                 <thead>
                   <tr>
                     <th></th>
