@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e87687df006a31fd400237c4fd2027b8",
+    "revision": "d31e73e52fe50612bef3ffc85a42e65d",
     "url": "/CoE_Helper/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CoE_Helper/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "2d5268b20e56927dc706",
+    "revision": "59dcd4cf05ab66444c70",
     "url": "/CoE_Helper/static/css/main.aabd451b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CoE_Helper/static/js/2.884eb604.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2d5268b20e56927dc706",
-    "url": "/CoE_Helper/static/js/main.04d12afa.chunk.js"
+    "revision": "59dcd4cf05ab66444c70",
+    "url": "/CoE_Helper/static/js/main.7dc9a96d.chunk.js"
   },
   {
     "revision": "860e8c286a35997dc856",
