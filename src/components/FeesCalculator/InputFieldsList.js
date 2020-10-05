@@ -52,7 +52,7 @@ const InputFieldsList = ({ sumChanged }) => {
   };
 
   /**********************************************
-   *  Cacluate fees for urser Inputs Groups (row)
+   *  calculate fees for user Inputs Groups (row)
    * **********************************************/
 
   const calculateInputGroupFees = (id, inputValuesInRow) => {
@@ -80,13 +80,16 @@ const InputFieldsList = ({ sumChanged }) => {
 
   // calculate sum of total fees in row
   const calculateTotalSum = () => {
-    const copiedTotalSumArray = [...inputGroupTotalFeesArray].map((item) =>
+    const totalSumArray = [...inputGroupTotalFeesArray].map((item) =>
       parseFloat(item.feesInTotal)
     );
-    if (copiedTotalSumArray.length > 0) {
+    if (totalSumArray.length > 0) {
       const reducer = (accumulator, currentValue) => accumulator + currentValue;
-      let totalSum = copiedTotalSumArray.reduce(reducer);
+      let totalSum = totalSumArray.reduce(reducer);
       sumChanged(totalSum);
+    }
+    if (totalSumArray.length === 0) {
+        sumChanged(0);
     }
   };
 

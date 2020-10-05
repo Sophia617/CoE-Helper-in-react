@@ -17,7 +17,6 @@ const InputGroupsDisplay = ({
     feesInTotal: 0,
   };
   feesInTotalObj = { ...inputGroupTotalFeesObj };
-  console.log(feesInTotalObj);
 
   return (
     <Form.Row>

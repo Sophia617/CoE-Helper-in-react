@@ -54,8 +54,6 @@ const CalculationResult = ({
               </Badge>
             </li>
           )}
-
-          {console.log(typeof currentTuitionFees)}
         </Card.Body>
       </Card>
     </>
