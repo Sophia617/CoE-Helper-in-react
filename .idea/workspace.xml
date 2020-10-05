@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fed2680a-eb4b-46b0-bb3b-d39510c7f0eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CRICOSFinder/CRICOSFinder.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CRICOSFinder/CRICOSFinder.styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CoEHelper/CoEHelper.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CoEHelper/CoEHelper.styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CoEHelper/CoEHelperInputForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CoEHelper/CoEHelperInputForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeesCalculator/FeesCalculator.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeesCalculator/FeesCalculator.styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeesCalculator/InputFieldsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeesCalculator/InputFieldsList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeesCalculator/InputGroupsDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeesCalculator/InputGroupsDisplay.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ImportantDate/ImportantDates.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImportantDate/ImportantDates.styles.js" afterDir="false" />
-    </list>
+    <list default="true" id="fed2680a-eb4b-46b0-bb3b-d39510c7f0eb" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -44,8 +35,8 @@
       <file leaf-file-name="InputGroupsDisplay.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/FeesCalculator/InputGroupsDisplay.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="340">
+              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -303,12 +294,12 @@
       <workItem from="1601896439416" duration="106000" />
       <workItem from="1601896808140" duration="287000" />
       <workItem from="1601897218529" duration="495000" />
-      <workItem from="1601897721164" duration="3326000" />
+      <workItem from="1601897721164" duration="3661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155196000" />
+    <option name="totallyTimeSpent" value="155531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="562" y="23" width="1099" height="937" extended-state="0" />
@@ -493,8 +484,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/FeesCalculator/InputGroupsDisplay.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="340">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
         </state>
       </provider>
     </entry>
