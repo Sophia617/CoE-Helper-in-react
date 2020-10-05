@@ -4,12 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/index.js" line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fed2680a-eb4b-46b0-bb3b-d39510c7f0eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CoEHelper/ResultDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CoEHelper/ResultDisplay.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeesCalculator/InputFieldsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeesCalculator/InputFieldsList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeesCalculator/InputGroupsDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeesCalculator/InputGroupsDisplay.js" afterDir="false" />
-    </list>
+    <list default="true" id="fed2680a-eb4b-46b0-bb3b-d39510c7f0eb" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -36,8 +31,8 @@
       <file leaf-file-name="InputFieldsList.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/FeesCalculator/InputFieldsList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="910">
-              <caret line="88" column="27" lean-forward="true" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+            <state relative-caret-position="1426">
+              <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -49,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/FeesCalculator/InputGroupsDisplay.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1449">
-              <caret line="63" column="40" lean-forward="true" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+              <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -61,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/CoEHelper/ResultDisplay.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
-              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -243,7 +238,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.github.izhangzhihao.rainbow.brackets.settings.RainbowConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -290,12 +285,12 @@
       <workItem from="1600924687162" duration="9659000" />
       <workItem from="1601022645076" duration="19844000" />
       <workItem from="1601190727835" duration="29910000" />
-      <workItem from="1601883942290" duration="684000" />
+      <workItem from="1601883942290" duration="2221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147410000" />
+    <option name="totallyTimeSpent" value="148947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="161" y="23" width="1099" height="937" extended-state="0" />
@@ -656,7 +651,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/CoEHelper/ResultDisplay.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -666,7 +661,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/FeesCalculator/InputGroupsDisplay.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1449">
-          <caret line="63" column="40" lean-forward="true" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -675,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/FeesCalculator/InputFieldsList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="88" column="27" lean-forward="true" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+        <state relative-caret-position="1426">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
