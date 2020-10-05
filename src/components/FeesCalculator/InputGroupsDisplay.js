@@ -19,7 +19,7 @@ const InputGroupsDisplay = ({
   feesInTotalObj = { ...inputGroupTotalFeesObj };
 
   return (
-    <Form.Row>
+    <Form.Row className >
       <FormGroup
         xs={5}
         sm={3}
@@ -34,7 +34,7 @@ const InputGroupsDisplay = ({
         <ICON className="fas fa-times"></ICON>
       </CENTERDIV>
       <FormGroup
-        xs={4}
+        xs={5}
         sm={2}
         md={2}
         controlId={"subjectNumbers"}
@@ -48,7 +48,7 @@ const InputGroupsDisplay = ({
       </CENTERDIV>
 
       <FormGroup
-        xs={9}
+        xs={7}
         sm={3}
         md={4}
         controlId={"inputGroupTotalFees"}

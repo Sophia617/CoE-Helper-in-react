@@ -146,7 +146,7 @@ const InputFieldsList = ({ sumChanged }) => {
 
   return (
     <Form>
-      {inputGroupIDArray.map((inputGroup) => {
+      {inputGroupIDArray.map((inputGroup, index) => {
         return (
           <InputGroupsDisplay
             id={inputGroup.id}

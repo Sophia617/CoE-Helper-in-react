@@ -1,8 +1,14 @@
 import styled from "styled-components";
 
 const Wrapper = styled.section`
-  padding: 4em;
+  padding: 1em;
+  padding-top: 4em;
+  padding-bottom: 3em;
   background: #555b6e;
+  
+  .form-row {
+  padding-bottom: 1em;
+  }
 `;
 
 export const CENTERDIV= styled.div`     

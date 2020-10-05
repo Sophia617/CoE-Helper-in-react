@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 const Wrapper= styled.section`
-  padding: 4em;
+  padding: 1em;
+  padding-top: 4em;
+  padding-bottom: 4em;
   background: #9F939D;
   
   .pagination {

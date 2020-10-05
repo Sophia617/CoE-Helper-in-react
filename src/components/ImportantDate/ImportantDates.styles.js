@@ -3,7 +3,9 @@ import styled from 'styled-components';
 // CSS for Important Date component using styled
  const Wrapper= styled.section`
   // global
-  padding: 4em;
+  padding: 1em;
+  padding-top: 4em;
+  padding-bottom: 4em;
   background: #bb9f99;
   
   // navigation tab

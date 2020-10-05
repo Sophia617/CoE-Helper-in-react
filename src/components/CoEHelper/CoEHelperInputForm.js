@@ -20,7 +20,7 @@ const CoECalculationForm = (props) => {
   };
 
   // Update object value from user input
-  function inputChangeHander(e) {
+  function inputChangeHandler(e) {
     let value = e.target.value === "" ? 0 : e.target.value;
     if (e.target.name === "subjectTuitionFees") {
       value = parseFloat(value);
@@ -61,35 +61,32 @@ const CoECalculationForm = (props) => {
       <Form onSubmit={submitHandler}>
         <Form.Row>
           <FormGroup
-            xs={6}
-            sm={3}
+            xs={6} md={3}
             controlId="totalCPS"
             label="Total CPS"
             name={"totalCPS"}
             type="number"
             placeholder={"e.g. 144"}
-            inputTextHandler={inputChangeHander}
+            inputTextHandler={inputChangeHandler}
           />
           <FormGroup
-            xs={6}
-            sm={3}
+            xs={6} md={3}
             controlId="completedCPS"
             label="Completed CPS"
             name={"completedCPS"}
             type="number"
             placeholder={"e.g. 96"}
-            inputTextHandler={inputChangeHander}
+            inputTextHandler={inputChangeHandler}
           />
 
           <FormGroup
-            xs={6}
-            sm={3}
+            xs={6} md={3}
             controlId="pendingCPS"
             label="Pending CPS"
             name={"pendingCPS"}
             type="number"
             placeholder={"e.g. 6"}
-            inputTextHandler={inputChangeHander}
+            inputTextHandler={inputChangeHandler}
             icon={
               <OverlayTrigger
                 trigger="click"
@@ -104,14 +101,13 @@ const CoECalculationForm = (props) => {
           />
 
           <FormGroup
-            xs={6}
-            sm={3}
+            xs={6} md={3}
             controlId="enrolledCPS"
             label="Enrolled CPS"
             name={"enrolledCPS"}
             type="number"
             placeholder={"e.g. 24"}
-            inputTextHandler={inputChangeHander}
+            inputTextHandler={inputChangeHandler}
             icon={
               <OverlayTrigger
                 trigger="click"
@@ -135,7 +131,7 @@ const CoECalculationForm = (props) => {
             type="text"
             disabled={false}
             placeholder={"e.g. 5775.5"}
-            inputTextHandler={inputChangeHander}
+            inputTextHandler={inputChangeHandler}
           />
 
           <FormGroup
@@ -146,7 +142,7 @@ const CoECalculationForm = (props) => {
             type="number"
             disabled={false}
             placeholder={"e.g. 6"}
-            inputTextHandler={inputChangeHander}
+            inputTextHandler={inputChangeHandler}
           />
         </Form.Row>
 
