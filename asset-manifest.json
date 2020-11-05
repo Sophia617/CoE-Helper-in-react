@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CoE_Helper/static/css/main.76b0fc7b.chunk.css",
-    "main.js": "/CoE_Helper/static/js/main.cecdab40.chunk.js",
-    "main.js.map": "/CoE_Helper/static/js/main.cecdab40.chunk.js.map",
+    "main.js": "/CoE_Helper/static/js/main.49f44a39.chunk.js",
+    "main.js.map": "/CoE_Helper/static/js/main.49f44a39.chunk.js.map",
     "runtime-main.js": "/CoE_Helper/static/js/runtime-main.736d0838.js",
     "runtime-main.js.map": "/CoE_Helper/static/js/runtime-main.736d0838.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/CoE_Helper/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.884eb604.chunk.js": "/CoE_Helper/static/js/2.884eb604.chunk.js",
     "static/js/2.884eb604.chunk.js.map": "/CoE_Helper/static/js/2.884eb604.chunk.js.map",
     "index.html": "/CoE_Helper/index.html",
-    "precache-manifest.697d9ef2375190f0a7b3d5a79649c116.js": "/CoE_Helper/precache-manifest.697d9ef2375190f0a7b3d5a79649c116.js",
+    "precache-manifest.d66d7b0e0739bfaef769a44d8672d71e.js": "/CoE_Helper/precache-manifest.d66d7b0e0739bfaef769a44d8672d71e.js",
     "service-worker.js": "/CoE_Helper/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/CoE_Helper/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.76b0fc7b.chunk.css.map": "/CoE_Helper/static/css/main.76b0fc7b.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.884eb604.chunk.js",
     "static/css/main.76b0fc7b.chunk.css",
-    "static/js/main.cecdab40.chunk.js"
+    "static/js/main.49f44a39.chunk.js"
   ]
 }
