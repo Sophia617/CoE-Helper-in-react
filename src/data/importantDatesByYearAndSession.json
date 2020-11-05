@@ -4,21 +4,21 @@
     "title": "2021 SPRING",
     "calendars": [
       {
-        "name": "2021 Spring - CAL A & C",
+        "name": "S 2021 - CAL A & C",
         "startDate": "02/08/2021",
-        "resultReleaseDate": "31/12/2021 (Not confirmed)",
+        "resultReleaseDate": "13/11/2021",
         "censusDate": "27/08/2021"
       },
       {
-        "name": "2021 Spring - Graduate School of Health (CAL B)",
+        "name": "S 2021 - Graduate School of Health (CAL B)",
         "startDate": "26/07/2021",
-        "resultReleaseDate": "31/12/2021 (Not confirmed)",
+        "resultReleaseDate": "13/11/2021",
         "censusDate": "20/08/2021"
       },
       {
-        "name": "2021 Spring - Education UG &PG (CAL D)",
+        "name": "S 2021 - Education UG &PG (CAL D)",
         "startDate": "19/07/2021**",
-        "resultReleaseDate": "31/12/2021 (Not confirmed)",
+        "resultReleaseDate": "13/11/2021",
         "censusDate": "20/08/2021 "
       }
     ]
@@ -28,15 +28,15 @@
     "title": "2021 AUTUMN",
     "calendars": [
       {
-        "name": "2021 Autumn - CAL A/B/C",
+        "name": "A 2021 - CAL A/B/C (Main & Health UG)",
         "startDate": "22/02/2021",
-        "resultReleaseDate": "30/06/2021 (Not confirmed)",
+        "resultReleaseDate": "05/07/2021",
         "censusDate": "19/03/2021"
       },
       {
-        "name": "2021 Autumn - Education UG &PG (CAL D)",
+        "name": "A 2021 - CAL D (Education UG & PG) ",
         "startDate": "15/02/2021**",
-        "resultReleaseDate": "31/12/2021 (Not confirmed)",
+        "resultReleaseDate": "12/07/2021",
         "censusDate": "19/03/2021"
       }
     ]
@@ -46,9 +46,9 @@
     "title": "2020 SUMMER",
     "calendars": [
       {
-        "name":"2020/21 Summer",
+        "name":"Summer 2020",
         "startDate": "16/11/2020",
-        "resultReleaseDate": "27/02/2021 (Not Confirmed))",
+        "resultReleaseDate": "08/03/2021",
         "censusDate": "08/12/2020"
       }
     ]
